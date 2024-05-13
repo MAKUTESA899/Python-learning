@@ -18,7 +18,7 @@ print(thislist[2])
 
 #change item value
 thislist =["apple", "banana", "mango"]
-thislist [1]= "cherry"
+thislist[1]= "cherry"
 print (thislist)
 thislist =["apple", "banana", "mango"]
 thislist[0]="watermelon"
@@ -54,10 +54,10 @@ print(thislist)
 
 #delete a list
 thislist =["apple", "banana", "mango"]
-del thislist 
+# del thislist 
 print(thislist)
 thislist =["apple", "banana", "mango"]
-thislist.clear()
+# thislist.clear()
 print(thislist)
 
 
@@ -65,3 +65,21 @@ print(thislist)
 this =["apple", "banana", "mango"]
 for m in this:
     print(m)
+
+#sort a list
+#thisliist =  ["orange", "mango", "kiwi", "pineapple", "banana"]
+#thislist.sort()
+#print(thislist)
+
+#thislist = [50, 10, 70, 90, 5]
+#thislist.sort()
+#print(thislist)
+
+#thisliist =  ["orange", "mango", "kiwi", "pineapple", "banana"]
+#thislist.sort(reverse = True)
+#print (thislist)
+
+thisliist =  ["orange", "mango", "kiwi", "pineapple", "banana"]
+newlist=thislist.copy()
+print(f"New list: {newlist}")
+
