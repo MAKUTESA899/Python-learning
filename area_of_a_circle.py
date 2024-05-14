@@ -7,3 +7,4 @@ l = int(input("Enter the length: "))
 w = int(input("Enter the width: "))
 area = l*w
 print(f"the area of the rectangle with length {l} and width {w} is {area}cm ")
+
