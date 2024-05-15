@@ -18,7 +18,7 @@ while choice >= 1:
         b = int(input("b ;"))
         result = a / b
         print(f"the division of {a} and {b} is {result}")
-    elif (operation ==2):
+    elif (operation ==4):
         a = int(input("a ;"))
         b = int(input("b ;"))
         result = a * b
