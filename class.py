@@ -32,23 +32,19 @@ print(p1.age, p1.name)
 
 
 class person:
-    def __init__(self , name, age)
-        self.name = name
+    def __init__(self,age):
         self.age = age
     def __str__(self):
-        return (f"{self.name} {self.age}")
-    def __float__(num, a , b):
-        num.a = a
-        num.b = b
-        print(a / b)
-a = int(input("values ;"))
-b = int(input("values ;"))
+        return (f" {self.age}")
+    def __float__(self):
+        return float(self.age)
+# a = int(input("values ;"))
+# b = int(input("values ;"))
 
-p1 = person ("john", 38)
 
 print(f"my name is {p1.name}")
 print(f"and i am {p1.age} years old")
-print(f"the division of {a} and {b} {p1}")
+# print(f"the division of {a} and {b} {p1}")
 
 
 class Employee:
@@ -73,3 +69,26 @@ emp2 = Employee("Manni", 5000)
 emp1.displayEmployee()
 emp2.displayEmployee()
 print ("Total Employee %d" % Employee.empCount)
+person1 = person(38)
+print(float(person1))
+
+
+class person:
+    def __init__(self,loan,inheritance):
+        self.laon= loan
+        self.inheritance = inheritance
+
+class child:
+    def __init__(self):
+        return
+    def __init__(self,name,age):
+        self.name=name
+        self.age=age
+
+p1 = person(" 200 dollars", 300000000)
+c1 = child ("jhon", 30)
+print(c1.name)
+print(c1.age)
+print( f"pay for the loan :{p1.inheritance}")
+print(p1.laon)
+
