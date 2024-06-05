@@ -25,6 +25,7 @@ while choice >= 1:
         print(f"the division of {a} and {b} is {result}") 
     elif operation ==0:
         choice =0
+        break
         print ("HAVE A NICE DAY") 
     else:
         print("the insert does not exist") 
