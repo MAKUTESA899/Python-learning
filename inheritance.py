@@ -14,8 +14,3 @@ class Student(Person):
 student1=Student("alex","maina","python",54)
 student1.details()
 student1.printname()
-        
-2 3 1
-525
-713
-956
