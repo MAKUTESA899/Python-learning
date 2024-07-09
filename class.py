@@ -85,10 +85,11 @@ class child:
         self.name=name
         self.age=age
 
-p1 = person(" 200 dollars", 300000000)
+p1 = person(" 200 dollars", 300000000 )
 c1 = child ("jhon", 30)
 print(c1.name)
 print(c1.age)
 print( f"pay for the loan :{p1.inheritance}")
 print(p1.laon)
+
 
